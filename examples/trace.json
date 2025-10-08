@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "total_requirements": 4,
+    "tested_requirements": 4,
+    "verified_requirements": 4,
+    "coverage_percentage": 100.0,
+    "verification_percentage": 100.0
+  },
+  "requirements": [
+    {
+      "requirement_id": "REQ-001",
+      "requirement_name": "TreeHeightRequirement",
+      "test_count": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "verified": true,
+      "tests": [
+        {
+          "name": "examples/tests/test_generated_requirements.py::test_treeheightrequirement",
+          "file": "/home/kevin/sources/sysml_deep_dive/sysml2pytest/examples/tests/test_generated_requirements.py",
+          "outcome": "passed",
+          "duration": 0.1137401959995259,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requirement_id": "REQ-002",
+      "requirement_name": "OrnamentCountRequirement",
+      "test_count": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "verified": true,
+      "tests": [
+        {
+          "name": "examples/tests/test_generated_requirements.py::test_ornamentcountrequirement",
+          "file": "/home/kevin/sources/sysml_deep_dive/sysml2pytest/examples/tests/test_generated_requirements.py",
+          "outcome": "passed",
+          "duration": 0.09812048100047832,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requirement_id": "REQ-003",
+      "requirement_name": "LightsPowerRequirement",
+      "test_count": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "verified": true,
+      "tests": [
+        {
+          "name": "examples/tests/test_generated_requirements.py::test_lightspowerrequirement",
+          "file": "/home/kevin/sources/sysml_deep_dive/sysml2pytest/examples/tests/test_generated_requirements.py",
+          "outcome": "passed",
+          "duration": 0.17331898699922021,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requirement_id": "REQ-004",
+      "requirement_name": "TreeStabilityRequirement",
+      "test_count": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "verified": true,
+      "tests": [
+        {
+          "name": "examples/tests/test_generated_requirements.py::test_treestabilityrequirement",
+          "file": "/home/kevin/sources/sysml_deep_dive/sysml2pytest/examples/tests/test_generated_requirements.py",
+          "outcome": "passed",
+          "duration": 0.14457222300006833,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "untested_requirements": [],
+  "tests_without_requirements": []
+}

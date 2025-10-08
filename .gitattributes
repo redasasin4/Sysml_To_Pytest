@@ -1,0 +1,44 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+*.pyx text eol=lf
+*.pyi text eol=lf
+
+# Configuration files
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.rst text eol=lf
+*.txt text eol=lf
+
+# Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# SysML files
+*.sysml text eol=lf
+
+# Exclude files from export (git archive)
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
+tests export-ignore
+.pytest_cache export-ignore
+.coverage export-ignore
+htmlcov export-ignore
+
+# Diff configuration
+*.py diff=python
+*.md diff=markdown
+*.toml diff=toml
+
+# Lock files should not have merge conflicts
+uv.lock merge=binary

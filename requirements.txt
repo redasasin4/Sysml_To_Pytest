@@ -1,0 +1,25 @@
+# SysML V2 API Client (install separately from GitHub if needed)
+# sysml-v2-api-client>=1.0.0
+
+# Testing frameworks
+pytest>=7.4.0
+hypothesis>=6.90.0
+pytest-cov>=4.1.0
+pytest-html>=4.0.0
+
+# Code generation and parsing
+jinja2>=3.1.0
+lark-parser>=0.12.0
+black>=23.0.0
+
+# Data handling
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# API interaction
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Development tools
+mypy>=1.7.0
+ruff>=0.1.0
